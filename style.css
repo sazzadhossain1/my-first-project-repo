@@ -1,0 +1,88 @@
+.title{
+    color: darkblue;
+    text-align: center;
+}
+
+.parent{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.photo img{
+    width: 350px;
+}
+
+.details-dtn{
+    padding: 10px 30px;
+    background-image: linear-gradient(45deg,green,red,green);
+    border-radius: 8px;
+    border: none;
+
+}
+
+.details-dtn:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+
+.secend-section{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.dhaka{
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+}
+
+.div-img img{
+    width: 100%;
+}
+
+.khulna{
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+
+}
+
+.pabna{
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+}
+
+.all-division{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+
+
+.button{
+    padding: 15px;
+}
+
+
+.details{
+    background-color: indigo;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.details:hover{
+    background-color: turquoise;
+    color: black;
+}
